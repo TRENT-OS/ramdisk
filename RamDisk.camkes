@@ -24,6 +24,7 @@
 #pragma once
 
 /** @cond SKIP_IMPORTS */
+import <std_connector.camkes>;
 import <if_OS_Storage.camkes>;
 /** @endcond */
 
