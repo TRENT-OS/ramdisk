@@ -49,7 +49,8 @@ function(RamDisk_DeclareCAmkESComponent
         LIBS
             ${system_config_lib}
             os_core_api
-            os_libs
+            lib_debug
+            lib_util
     )
 
 endfunction()
