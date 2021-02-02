@@ -50,7 +50,7 @@ function(RamDisk_DeclareCAmkESComponent
             ${system_config_lib}
             os_core_api
             lib_debug
-            lib_util
+            lib_utils
     )
 
 endfunction()

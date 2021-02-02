@@ -5,7 +5,7 @@
 #include "OS_Error.h"
 #include "OS_Dataport.h"
 
-#include "lib_util/RleCompressor.h"
+#include "lib_utils/RleCompressor.h"
 #include "lib_debug/Debug.h"
 
 #include "system_config.h"
