@@ -1,6 +1,7 @@
-/* Copyright (C) 2020, HENSOLDT Cyber GmbH
- *
+/*
  * Driver for the Volatile Memory storage (RAM Disk)
+ *
+ * Copyright (C) 2020-2021, HENSOLDT Cyber GmbH
  */
 #include "OS_Error.h"
 #include "OS_Dataport.h"
