@@ -8,13 +8,11 @@
 #include "lib_utils/RleCompressor.h"
 #include "lib_debug/Debug.h"
 
-#include "system_config.h"
-
 #include <stdint.h>
 #include <string.h>
 #include <camkes.h>
 
-static uint8_t storage[RAMDISK_SIZE_BYTES] = { 0u };
+static uint8_t storage[CAMKES_CONST_ATTR(storage_size)] = { 0u };
 
 static struct
 {

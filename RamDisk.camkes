@@ -14,9 +14,8 @@
  * @note    The underlying memory is volatile, so expected loss of data betwean
  *          reboots!
  *
- * @note    The size of the storage is configured with the macro
- *          RAMDISK_SIZE_BYTES, please make sure that it is defined in the main
- *          config header.
+ * @note    The size of the storage is configured with the `storage_size`
+ *          CAmkES attribute, please make sure that it is set properly.
  *
  * @see @link https://en.wikipedia.org/wiki/RAM_drive @endlink
  */
@@ -38,6 +37,7 @@ import <if_OS_Storage.camkes>;
     component _name_ { \
         provides    if_OS_Storage   storage_rpc; \
         dataport    Buf             storage_port; \
+        attribute   uint64_t        storage_size; \
     }
 
 
